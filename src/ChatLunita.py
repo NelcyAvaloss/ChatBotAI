@@ -15,25 +15,22 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 #messages = []
 
+
 #while True:
 #    user_input = input("Tú: ")
 #    if user_input == "0":
 #        break
-
 #    messages.append({"role": "user", "content": user_input})
-
-#    response = openai.Completion.create(
-#        model="gpt-4o-mini", 
+ 
+#    response = openai.ChatCompletion.create(
+#        model="gpt-4o-mini",
 #        messages=messages
 #    )
-    
+   
 #    responseMessage = response['choices'][0]['message']['content']
-
 #    messages.append({"role": "assistant", "content": responseMessage})
-
+ 
 #    print("Lunita EcoAI: " + responseMessage)
-
-
 
 
 #INTERFAZ STREAMLIT
